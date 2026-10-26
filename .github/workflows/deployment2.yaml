@@ -20,7 +20,7 @@ jobs:
       - name: Tet Code
         run: npm run test
   deploy:
-    uns-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Get Code
         uses: action/checkout@v3
